@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            height:90px;
+            width:300px;
+            overflow: auto;
+        }
+        h4{
+            background-color:red;
+            color:#fff;
+        }
+        h4{
+            position:sticky;
+            top:20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- MDN 说明
+            首先，未脱离文档流
+            其次，粘性元素粘附到overflow:hidden scroll auto overlay的最近最先上
+            最后，可以使用 top left bottom right 进行定位
+        -->
+        <h4>国庆第一天</h4>
+        <section>学习，睡觉，包饺子</section>
+        <h4>国庆第二天</h4>
+        <section>学习，睡觉，下面条</section>
+        <h4>国庆第三天</h4>
+        <section>学习，睡觉</section>
+        <h4>国庆第四天</h4>
+        <section>学习，睡觉</section>
+        <h4>国庆第五天</h4>
+        <section>学习，睡觉，去医院</section>
+    </div>
+</body>
+</html>
