@@ -8,7 +8,7 @@
 同样也是
 1. flex
 2. position
-3. flex
+3. float
 ## position
 1. static
 2. fixed
@@ -30,3 +30,4 @@ vh
 vw
 ## 清除浮动
 ## BFC
+替换flex可以使用float、inline-block、table-layout
