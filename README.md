@@ -30,4 +30,4 @@ vh
 vw
 ## 清除浮动
 ## BFC
-替换flex可以使用float、inline-block、table-layout
+## 替换flex可以使用float、inline-block、table-layout
